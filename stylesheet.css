@@ -1,0 +1,87 @@
+body {
+    min-width: 500px;
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #ff0000 16.67%, #000000 16.67%, #000000 33.33%, gold 33.33%, gold 50%, #ff0000 50%, #ff0000 66.67%, #000000 66.67%, #000000 83.33%, gold 83.33%, gold 100%);
+    background-size: 70px 70px;
+}
+
+.logo {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    padding: 5px;
+    fill: black;
+}
+
+h1 {
+    -webkit-text-stroke: 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.icons {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    row-gap: 10px;
+    padding: 3px;
+}
+
+
+.animation:hover {
+    transition: 1s ease-in-out;
+    transform: scale(1.5);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+/*
+a:hover {
+    transition: 2s;
+    font-size: large;
+}
+
+.icons:hover,
+. {
+    transition: 2s;
+    width: 50px;
+    height: 50px;
+    
+}
+*/
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(86, 86, 86);
+}

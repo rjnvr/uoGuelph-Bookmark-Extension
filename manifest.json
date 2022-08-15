@@ -1,0 +1,22 @@
+{
+    "name": "University of Guelph",
+    "description": "An extension that contains uoguelph's important links",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon" : {
+            "16": "/img/uoguelphicon.png",
+            "32": "/img/uoguelphicon.png",
+            "48": "/img/uoguelphicon.png",
+            "128": "/img/uoguelphicon.png"
+        }
+    },
+    "icons": {
+        "16": "/img/uoguelphicon.png",
+        "32": "/img/uoguelphicon.png",
+        "48": "/img/uoguelphicon.png",
+        "128": "/img/uoguelphicon.png"
+    }
+}
